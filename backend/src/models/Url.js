@@ -10,6 +10,7 @@ const clickSchema = new mongoose.Schema({
   deviceType: String,
   browser: String,
   os: String
+  
 });
 
 const urlSchema = new mongoose.Schema({
